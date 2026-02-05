@@ -1,32 +1,31 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { MapPin, Battery, Wifi, BarChart3, ArrowRight } from "lucide-react";
+import { MapPin, Battery, Wifi, BarChart3, ArrowRight, Check } from "lucide-react";
 import { Container } from "@/components/ui/Container";
 import { Button } from "@/components/ui/Button";
-import { cn } from "@/lib/utils";
 
 export function SolutionOverview() {
   const t = useTranslations("solution");
 
   const features = [
     {
-      icon: <MapPin className="w-6 h-6" />,
+      icon: <MapPin className="w-4 h-4" />,
       title: t("feature1.title"),
       description: t("feature1.description"),
     },
     {
-      icon: <Battery className="w-6 h-6" />,
+      icon: <Battery className="w-4 h-4" />,
       title: t("feature2.title"),
       description: t("feature2.description"),
     },
     {
-      icon: <Wifi className="w-6 h-6" />,
+      icon: <Wifi className="w-4 h-4" />,
       title: t("feature3.title"),
       description: t("feature3.description"),
     },
     {
-      icon: <BarChart3 className="w-6 h-6" />,
+      icon: <BarChart3 className="w-4 h-4" />,
       title: t("feature4.title"),
       description: t("feature4.description"),
     },
@@ -35,97 +34,83 @@ export function SolutionOverview() {
   return (
     <section id="features" className="section-padding bg-white">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          {/* Video/Visual placeholder */}
-          <div className="relative">
-            <div className="aspect-video bg-gradient-to-br from-mint to-mint-light rounded-2xl shadow-large overflow-hidden">
-              {/* Dashboard visualization placeholder */}
-              <div className="w-full h-full p-6 flex flex-col">
-                {/* Map header */}
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                      <MapPin className="w-4 h-4 text-white" />
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          {/* Video/Visual */}
+          <div className="relative order-2 lg:order-1">
+            <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden shadow-large">
+              {/* Dashboard preview */}
+              <div className="w-full h-full bg-gradient-to-br from-gray-800 to-gray-900 p-4">
+                <div className="h-full bg-gray-800/50 rounded border border-gray-700/50 p-4 flex flex-col">
+                  {/* Header */}
+                  <div className="flex items-center justify-between mb-4 pb-3 border-b border-gray-700/50">
+                    <div className="flex items-center space-x-3">
+                      <div className="w-8 h-8 bg-primary rounded flex items-center justify-center">
+                        <MapPin className="w-4 h-4 text-white" />
+                      </div>
+                      <div>
+                        <div className="text-white text-sm font-medium">Floor 3 - West Wing</div>
+                        <div className="text-gray-400 text-xs">24 devices active</div>
+                      </div>
                     </div>
-                    <div>
-                      <div className="h-3 w-24 bg-primary/30 rounded" />
-                      <div className="h-2 w-16 bg-primary/20 rounded mt-1" />
+                    <div className="flex items-center space-x-2">
+                      <span className="w-2 h-2 bg-emerald-400 rounded-full"></span>
+                      <span className="text-emerald-400 text-xs">Live</span>
                     </div>
                   </div>
-                  <div className="flex space-x-2">
-                    <div className="h-6 w-16 bg-primary/20 rounded" />
-                    <div className="h-6 w-16 bg-primary/10 rounded" />
-                  </div>
-                </div>
 
-                {/* Floor plan */}
-                <div className="flex-1 bg-white rounded-xl p-4 shadow-soft">
-                  <div className="grid grid-cols-8 grid-rows-6 gap-1 h-full">
-                    {/* Simulated rooms */}
-                    {Array.from({ length: 48 }).map((_, i) => {
-                      const isHighlighted = [5, 12, 23, 34, 41].includes(i);
-                      const isActive = [8, 19, 28, 37].includes(i);
-                      return (
-                        <div
-                          key={i}
-                          className={cn(
-                            "rounded transition-colors",
-                            isHighlighted
-                              ? "bg-success/50"
-                              : isActive
-                              ? "bg-primary/30"
-                              : "bg-gray-100"
-                          )}
-                        >
-                          {isHighlighted && (
-                            <div className="w-full h-full flex items-center justify-center">
-                              <div className="w-2 h-2 bg-success rounded-full animate-pulse" />
-                            </div>
-                          )}
-                        </div>
-                      );
-                    })}
+                  {/* Grid */}
+                  <div className="flex-1 grid grid-cols-6 grid-rows-4 gap-1">
+                    {Array.from({ length: 24 }).map((_, i) => (
+                      <div
+                        key={i}
+                        className={`rounded ${
+                          [2, 8, 14, 20].includes(i)
+                            ? "bg-emerald-500/40 border border-emerald-500/60"
+                            : [5, 11, 17].includes(i)
+                            ? "bg-primary/30 border border-primary/50"
+                            : "bg-gray-700/30"
+                        }`}
+                      />
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Floating notification */}
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-xl shadow-medium p-4 max-w-xs">
-              <div className="flex items-start space-x-3">
-                <div className="w-10 h-10 bg-success/20 rounded-full flex items-center justify-center flex-shrink-0">
-                  <MapPin className="w-5 h-5 text-success" />
+            {/* Floating card */}
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-medium p-3 border border-gray-100">
+              <div className="flex items-center space-x-2">
+                <div className="w-8 h-8 bg-emerald-50 rounded-full flex items-center justify-center">
+                  <Check className="w-4 h-4 text-emerald-600" />
                 </div>
                 <div>
-                  <p className="text-sm font-medium text-primary">Portable Ultrasound found</p>
-                  <p className="text-xs text-muted">ICU - Room 405, 2nd shelf</p>
+                  <div className="text-xs font-medium text-gray-900">Ultrasound located</div>
+                  <div className="text-[11px] text-gray-500">ICU Room 405</div>
                 </div>
               </div>
             </div>
           </div>
 
           {/* Content */}
-          <div className="space-y-8">
-            <div>
-              <h2 className="text-display-sm md:text-display-md text-primary mb-4">
-                {t("headline")}
-              </h2>
-              <p className="text-lg text-muted">
-                {t("description")}
-              </p>
-            </div>
+          <div className="order-1 lg:order-2">
+            <h2 className="text-display-md text-primary mb-4">
+              {t("headline")}
+            </h2>
+            <p className="text-body text-muted mb-8">
+              {t("description")}
+            </p>
 
-            <div className="space-y-6">
+            <div className="space-y-5 mb-8">
               {features.map((feature, index) => (
-                <div key={index} className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-mint rounded-xl flex items-center justify-center flex-shrink-0 text-primary">
+                <div key={index} className="flex items-start space-x-3">
+                  <div className="w-8 h-8 rounded-md bg-primary/5 text-primary flex items-center justify-center flex-shrink-0 mt-0.5">
                     {feature.icon}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-primary mb-1">
+                    <h3 className="text-sm font-medium text-gray-900 mb-0.5">
                       {feature.title}
                     </h3>
-                    <p className="text-muted text-sm">
+                    <p className="text-sm text-muted">
                       {feature.description}
                     </p>
                   </div>

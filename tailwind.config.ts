@@ -41,14 +41,19 @@ const config: Config = {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
       },
       fontSize: {
-        "display-xl": ["4rem", { lineHeight: "1.1", fontWeight: "700" }],
-        "display-lg": ["3rem", { lineHeight: "1.15", fontWeight: "700" }],
-        "display-md": ["2.25rem", { lineHeight: "1.2", fontWeight: "600" }],
-        "display-sm": ["1.875rem", { lineHeight: "1.25", fontWeight: "600" }],
+        // Refined, smaller display sizes for cleaner look
+        "display-xl": ["3.25rem", { lineHeight: "1.15", fontWeight: "600", letterSpacing: "-0.02em" }],
+        "display-lg": ["2.5rem", { lineHeight: "1.2", fontWeight: "600", letterSpacing: "-0.02em" }],
+        "display-md": ["1.875rem", { lineHeight: "1.25", fontWeight: "600", letterSpacing: "-0.01em" }],
+        "display-sm": ["1.5rem", { lineHeight: "1.3", fontWeight: "600", letterSpacing: "-0.01em" }],
+        // Body text
+        "body-lg": ["1.125rem", { lineHeight: "1.7", fontWeight: "400" }],
+        "body": ["1rem", { lineHeight: "1.7", fontWeight: "400" }],
+        "body-sm": ["0.875rem", { lineHeight: "1.6", fontWeight: "400" }],
       },
       spacing: {
-        "section": "6rem",
-        "section-lg": "8rem",
+        "section": "5rem",
+        "section-lg": "6rem",
       },
       maxWidth: {
         "container": "1280px",

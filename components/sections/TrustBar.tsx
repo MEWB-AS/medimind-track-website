@@ -16,18 +16,18 @@ export function TrustBar() {
   ];
 
   return (
-    <section className="py-12 bg-white border-y border-gray-100">
+    <section className="py-8 bg-white border-b border-gray-100">
       <Container>
-        <p className="text-center text-sm text-muted mb-8">
+        <p className="text-center text-xs text-muted mb-6">
           {t("headline")}
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 opacity-50">
+        <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 opacity-40">
           {placeholderLogos.map((name, index) => (
             <div
               key={index}
-              className="h-8 px-4 flex items-center justify-center"
+              className="h-6 px-3 flex items-center justify-center"
             >
-              <span className="text-gray-400 font-medium text-sm whitespace-nowrap">
+              <span className="text-gray-400 font-medium text-xs whitespace-nowrap">
                 {name}
               </span>
             </div>

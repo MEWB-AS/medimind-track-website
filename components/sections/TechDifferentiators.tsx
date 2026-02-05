@@ -1,9 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Sun, Router, MessageSquare, Leaf, Zap, Brain } from "lucide-react";
+import { Sun, Router, MessageSquare, Zap } from "lucide-react";
 import { Container } from "@/components/ui/Container";
-import { Badge } from "@/components/ui/Badge";
 import { cn } from "@/lib/utils";
 
 export function TechDifferentiators() {
@@ -11,126 +10,109 @@ export function TechDifferentiators() {
 
   const sections = [
     {
-      icon: <Sun className="w-10 h-10" />,
-      secondaryIcon: <Leaf className="w-5 h-5" />,
+      icon: <Sun className="w-5 h-5" />,
       headline: t("section1.headline"),
       description: t("section1.description"),
       highlight: t("section1.highlight"),
       imagePosition: "right" as const,
       visual: (
-        <div className="relative">
-          {/* Tag visualization */}
-          <div className="bg-white rounded-2xl shadow-large p-8">
-            <div className="aspect-square max-w-xs mx-auto relative">
-              {/* Outer glow */}
-              <div className="absolute inset-0 bg-gradient-to-br from-success/20 to-primary/10 rounded-full animate-pulse" />
-
-              {/* Tag body */}
-              <div className="absolute inset-4 bg-gradient-to-br from-gray-100 to-white rounded-xl shadow-soft flex flex-col items-center justify-center">
-                {/* Solar cell pattern */}
-                <div className="grid grid-cols-3 gap-1 mb-4">
-                  {Array.from({ length: 9 }).map((_, i) => (
-                    <div
-                      key={i}
-                      className="w-6 h-6 bg-gradient-to-br from-primary/40 to-primary/60 rounded"
-                    />
-                  ))}
-                </div>
-
-                {/* Label */}
-                <div className="text-center">
-                  <div className="text-xs text-muted mb-1">Asset Tag</div>
-                  <div className="text-sm font-mono text-primary">MT-0042</div>
-                </div>
+        <div className="bg-gray-50 rounded-lg p-6">
+          <div className="aspect-square max-w-[200px] mx-auto relative">
+            {/* Tag body */}
+            <div className="absolute inset-0 bg-white rounded-lg border border-gray-200 flex flex-col items-center justify-center">
+              {/* Solar cell pattern */}
+              <div className="grid grid-cols-3 gap-0.5 mb-3">
+                {Array.from({ length: 9 }).map((_, i) => (
+                  <div
+                    key={i}
+                    className="w-4 h-4 bg-primary/30 rounded-sm"
+                  />
+                ))}
               </div>
-
-              {/* Energy indicator */}
-              <div className="absolute -top-2 -right-2 bg-success text-white rounded-full p-2">
-                <Zap className="w-4 h-4" />
+              <div className="text-center">
+                <div className="text-[10px] text-muted mb-0.5">Asset Tag</div>
+                <div className="text-xs font-mono text-primary">MT-0042</div>
               </div>
             </div>
-          </div>
-
-          {/* Light rays */}
-          <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-8">
-            <Sun className="w-12 h-12 text-yellow-400" />
+            {/* Energy indicator */}
+            <div className="absolute -top-1 -right-1 bg-emerald-500 text-white rounded-full p-1.5">
+              <Zap className="w-3 h-3" />
+            </div>
           </div>
         </div>
       ),
     },
     {
-      icon: <Router className="w-10 h-10" />,
+      icon: <Router className="w-5 h-5" />,
       headline: t("section2.headline"),
       description: t("section2.description"),
       highlight: t("section2.highlight"),
       imagePosition: "left" as const,
       visual: (
-        <div className="bg-white rounded-2xl shadow-large p-8">
-          {/* Floor plan with gateway coverage */}
-          <div className="relative aspect-video bg-mint-light rounded-xl p-4">
+        <div className="bg-gray-50 rounded-lg p-6">
+          <div className="relative aspect-video bg-white rounded-lg border border-gray-200 p-4">
             {/* Building outline */}
-            <div className="absolute inset-4 border-2 border-dashed border-primary/20 rounded-lg" />
+            <div className="absolute inset-4 border border-dashed border-gray-300 rounded" />
 
-            {/* Gateways */}
-            <div className="absolute top-8 left-8">
-              <div className="w-4 h-4 bg-primary rounded-full" />
-              <div className="absolute inset-0 w-32 h-32 -translate-x-14 -translate-y-14 border-2 border-primary/20 rounded-full" />
-              <div className="absolute inset-0 w-48 h-48 -translate-x-22 -translate-y-22 border border-primary/10 rounded-full" />
+            {/* Gateways with coverage circles */}
+            <div className="absolute top-6 left-6">
+              <div className="w-2.5 h-2.5 bg-primary rounded-full relative z-10" />
+              <div className="absolute -inset-6 border border-primary/20 rounded-full" />
+              <div className="absolute -inset-10 border border-primary/10 rounded-full" />
             </div>
 
-            <div className="absolute bottom-8 right-8">
-              <div className="w-4 h-4 bg-primary rounded-full" />
-              <div className="absolute inset-0 w-32 h-32 -translate-x-14 -translate-y-14 border-2 border-primary/20 rounded-full" />
-              <div className="absolute inset-0 w-48 h-48 -translate-x-22 -translate-y-22 border border-primary/10 rounded-full" />
+            <div className="absolute bottom-6 right-6">
+              <div className="w-2.5 h-2.5 bg-primary rounded-full relative z-10" />
+              <div className="absolute -inset-6 border border-primary/20 rounded-full" />
+              <div className="absolute -inset-10 border border-primary/10 rounded-full" />
             </div>
 
             {/* Label */}
-            <div className="absolute bottom-4 left-4 bg-white rounded-lg px-3 py-2 shadow-soft">
-              <span className="text-xs text-muted">Coverage: </span>
-              <span className="text-xs font-semibold text-primary">Full Floor</span>
+            <div className="absolute bottom-2 left-2 bg-gray-50 rounded px-2 py-1">
+              <span className="text-[10px] text-muted">Coverage: </span>
+              <span className="text-[10px] font-medium text-primary">Full Floor</span>
             </div>
           </div>
         </div>
       ),
     },
     {
-      icon: <MessageSquare className="w-10 h-10" />,
-      secondaryIcon: <Brain className="w-5 h-5" />,
+      icon: <MessageSquare className="w-5 h-5" />,
       headline: t("section3.headline"),
       description: t("section3.description"),
       highlight: t("section3.highlight"),
       imagePosition: "right" as const,
       visual: (
-        <div className="bg-white rounded-2xl shadow-large p-4">
+        <div className="bg-gray-50 rounded-lg p-6">
           {/* Mobile app mockup */}
-          <div className="bg-gray-900 rounded-3xl p-2 max-w-xs mx-auto">
-            <div className="bg-mint-light rounded-2xl p-4">
+          <div className="bg-gray-900 rounded-2xl p-1.5 max-w-[220px] mx-auto">
+            <div className="bg-white rounded-xl p-3">
               {/* App header */}
-              <div className="flex items-center justify-between mb-4">
-                <div className="w-8 h-8 bg-primary rounded-lg" />
-                <div className="h-3 w-20 bg-primary/20 rounded" />
+              <div className="flex items-center justify-between mb-3">
+                <div className="w-6 h-6 bg-primary rounded" />
+                <div className="h-2 w-14 bg-gray-200 rounded" />
               </div>
 
               {/* Chat interface */}
-              <div className="space-y-3">
+              <div className="space-y-2">
                 {/* User message */}
                 <div className="flex justify-end">
-                  <div className="bg-primary text-white text-xs rounded-2xl rounded-br-sm px-3 py-2 max-w-[80%]">
+                  <div className="bg-primary text-white text-[10px] rounded-lg rounded-br-sm px-2.5 py-1.5 max-w-[85%]">
                     Where&apos;s the nearest IV pump?
                   </div>
                 </div>
 
                 {/* AI response */}
                 <div className="flex justify-start">
-                  <div className="bg-white text-primary text-xs rounded-2xl rounded-bl-sm px-3 py-2 max-w-[80%] shadow-soft">
-                    <p className="mb-2">Found 3 available IV pumps nearby:</p>
-                    <div className="space-y-1">
-                      <div className="flex items-center space-x-2">
-                        <div className="w-2 h-2 bg-success rounded-full" />
+                  <div className="bg-gray-100 text-gray-700 text-[10px] rounded-lg rounded-bl-sm px-2.5 py-1.5 max-w-[85%]">
+                    <p className="mb-1.5">Found 3 available IV pumps:</p>
+                    <div className="space-y-0.5">
+                      <div className="flex items-center space-x-1.5">
+                        <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full" />
                         <span>Room 305 (12m)</span>
                       </div>
-                      <div className="flex items-center space-x-2">
-                        <div className="w-2 h-2 bg-success rounded-full" />
+                      <div className="flex items-center space-x-1.5">
+                        <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full" />
                         <span>Supply Room B (18m)</span>
                       </div>
                     </div>
@@ -139,9 +121,9 @@ export function TechDifferentiators() {
               </div>
 
               {/* Input field */}
-              <div className="mt-4 bg-white rounded-full px-4 py-2 flex items-center space-x-2 shadow-soft">
-                <div className="flex-1 h-3 bg-gray-100 rounded" />
-                <div className="w-6 h-6 bg-primary rounded-full" />
+              <div className="mt-3 bg-gray-100 rounded-full px-3 py-1.5 flex items-center">
+                <div className="flex-1 h-2 bg-gray-200 rounded" />
+                <div className="w-4 h-4 bg-primary rounded-full ml-2" />
               </div>
             </div>
           </div>
@@ -151,14 +133,14 @@ export function TechDifferentiators() {
   ];
 
   return (
-    <section className="section-padding bg-white">
+    <section className="py-16 md:py-20 bg-white">
       <Container>
-        <div className="space-y-24 lg:space-y-32">
+        <div className="space-y-16 lg:space-y-20">
           {sections.map((section, index) => (
             <div
               key={index}
               className={cn(
-                "grid lg:grid-cols-2 gap-12 lg:gap-20 items-center",
+                "grid lg:grid-cols-2 gap-8 lg:gap-12 items-center",
                 section.imagePosition === "left" && "lg:grid-flow-dense"
               )}
             >
@@ -168,22 +150,21 @@ export function TechDifferentiators() {
                   section.imagePosition === "left" && "lg:col-start-2"
                 )}
               >
-                <div className="inline-flex items-center justify-center w-16 h-16 bg-mint rounded-2xl text-primary mb-6">
+                <div className="inline-flex items-center justify-center w-10 h-10 bg-gray-100 rounded-lg text-primary mb-4">
                   {section.icon}
                 </div>
 
-                <h3 className="text-display-sm md:text-display-md text-primary mb-4">
+                <h3 className="text-xl md:text-2xl text-primary mb-3">
                   {section.headline}
                 </h3>
 
-                <p className="text-lg text-muted mb-6">
+                <p className="text-sm text-muted mb-4">
                   {section.description}
                 </p>
 
-                <Badge variant="outline" className="inline-flex items-center space-x-2">
-                  {section.secondaryIcon}
-                  <span>{section.highlight}</span>
-                </Badge>
+                <span className="inline-block text-xs text-primary bg-primary/5 px-3 py-1.5 rounded-full">
+                  {section.highlight}
+                </span>
               </div>
 
               {/* Visual */}

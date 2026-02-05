@@ -29,49 +29,49 @@ export function Footer() {
   return (
     <footer className="bg-primary text-white">
       <Container>
-        <div className="py-16">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 lg:gap-12">
+        <div className="py-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {/* Brand */}
             <div className="col-span-2 md:col-span-1">
-              <Link href="/" className="inline-block mb-4">
+              <Link href="/" className="inline-block mb-3">
                 <Image
                   src="/logo.svg"
                   alt="MediMind Track"
-                  width={140}
-                  height={32}
-                  className="h-8 w-auto brightness-0 invert"
+                  width={120}
+                  height={28}
+                  className="h-7 w-auto brightness-0 invert"
                 />
               </Link>
-              <p className="text-white/70 text-sm mb-4">
+              <p className="text-white/70 text-xs mb-3 leading-relaxed">
                 {t("description")}
               </p>
-              <div className="flex space-x-4">
+              <div className="flex space-x-3">
                 <a
                   href="#"
-                  className="text-white/70 hover:text-white transition-colors"
+                  className="text-white/60 hover:text-white transition-colors"
                   aria-label="LinkedIn"
                 >
-                  <Linkedin className="w-5 h-5" />
+                  <Linkedin className="w-4 h-4" />
                 </a>
                 <a
                   href="#"
-                  className="text-white/70 hover:text-white transition-colors"
+                  className="text-white/60 hover:text-white transition-colors"
                   aria-label="Twitter"
                 >
-                  <Twitter className="w-5 h-5" />
+                  <Twitter className="w-4 h-4" />
                 </a>
               </div>
             </div>
 
             {/* Product */}
             <div>
-              <h4 className="font-semibold mb-4">{t("product.title")}</h4>
-              <ul className="space-y-3">
+              <h4 className="font-medium text-sm mb-3">{t("product.title")}</h4>
+              <ul className="space-y-2">
                 {productLinks.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-white/70 hover:text-white transition-colors text-sm"
+                      className="text-white/70 hover:text-white transition-colors text-xs"
                     >
                       {link.label}
                     </Link>
@@ -82,13 +82,13 @@ export function Footer() {
 
             {/* Company */}
             <div>
-              <h4 className="font-semibold mb-4">{t("company.title")}</h4>
-              <ul className="space-y-3">
+              <h4 className="font-medium text-sm mb-3">{t("company.title")}</h4>
+              <ul className="space-y-2">
                 {companyLinks.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-white/70 hover:text-white transition-colors text-sm"
+                      className="text-white/70 hover:text-white transition-colors text-xs"
                     >
                       {link.label}
                     </Link>
@@ -99,13 +99,13 @@ export function Footer() {
 
             {/* Legal */}
             <div>
-              <h4 className="font-semibold mb-4">{t("legal.title")}</h4>
-              <ul className="space-y-3">
+              <h4 className="font-medium text-sm mb-3">{t("legal.title")}</h4>
+              <ul className="space-y-2">
                 {legalLinks.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-white/70 hover:text-white transition-colors text-sm"
+                      className="text-white/70 hover:text-white transition-colors text-xs"
                     >
                       {link.label}
                     </Link>
@@ -117,12 +117,12 @@ export function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/10 py-6">
-          <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-            <p className="text-white/60 text-sm">
+        <div className="border-t border-white/10 py-4">
+          <div className="flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
+            <p className="text-white/50 text-xs">
               {t("copyright")}
             </p>
-            <p className="text-white/40 text-sm italic">
+            <p className="text-white/40 text-xs italic">
               {t("tagline")}
             </p>
           </div>

@@ -2,7 +2,6 @@
 
 import { useTranslations } from "next-intl";
 import { Container } from "@/components/ui/Container";
-import { SectionHeader } from "@/components/ui/SectionHeader";
 
 export function ImpactMetrics() {
   const t = useTranslations("impact");
@@ -27,25 +26,24 @@ export function ImpactMetrics() {
   ];
 
   return (
-    <section className="section-padding gradient-primary relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2" />
-      <div className="absolute bottom-0 right-0 w-96 h-96 bg-white/5 rounded-full translate-x-1/3 translate-y-1/3" />
+    <section className="py-16 bg-primary">
+      <Container>
+        <div className="text-center mb-10">
+          <h2 className="text-display-sm text-white mb-2">
+            {t("headline")}
+          </h2>
+          <p className="text-white/70 text-sm max-w-xl mx-auto">
+            {t("description")}
+          </p>
+        </div>
 
-      <Container className="relative z-10">
-        <SectionHeader
-          title={t("headline")}
-          description={t("description")}
-          variant="light"
-        />
-
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {metrics.map((metric, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-2">
+              <div className="text-3xl md:text-4xl font-semibold text-white mb-1">
                 {metric.value}
               </div>
-              <div className="text-white/80 text-sm md:text-base">
+              <div className="text-white/60 text-sm">
                 {metric.label}
               </div>
             </div>

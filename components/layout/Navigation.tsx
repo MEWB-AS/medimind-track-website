@@ -34,31 +34,31 @@ export function Navigation() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled
-          ? "bg-white/80 backdrop-blur-lg shadow-soft"
+          ? "bg-white/90 backdrop-blur-md border-b border-gray-100"
           : "bg-transparent"
       )}
     >
       <Container>
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo.svg"
               alt="MediMind Track"
-              width={180}
-              height={40}
-              className="h-10 w-auto"
+              width={150}
+              height={36}
+              className="h-8 w-auto"
               priority
             />
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-6">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-body hover:text-primary font-medium transition-colors"
+                className="text-sm text-gray-600 hover:text-primary font-medium transition-colors"
               >
                 {link.label}
               </Link>
@@ -79,29 +79,29 @@ export function Navigation() {
             aria-label="Toggle menu"
           >
             {isMobileMenuOpen ? (
-              <X className="w-6 h-6" />
+              <X className="w-5 h-5" />
             ) : (
-              <Menu className="w-6 h-6" />
+              <Menu className="w-5 h-5" />
             )}
           </button>
         </div>
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-20 left-0 right-0 bg-white shadow-lg border-t border-gray-100">
-            <div className="px-4 py-6 space-y-4">
+          <div className="md:hidden absolute top-16 left-0 right-0 bg-white border-b border-gray-100">
+            <div className="px-4 py-4 space-y-3">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="block text-body hover:text-primary font-medium py-2"
+                  className="block text-sm text-gray-600 hover:text-primary font-medium py-1.5"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-4">
-                <Button variant="primary" size="md" className="w-full">
+              <div className="pt-3">
+                <Button variant="primary" size="sm" className="w-full">
                   {t("cta")}
                 </Button>
               </div>

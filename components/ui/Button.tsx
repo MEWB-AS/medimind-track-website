@@ -15,26 +15,24 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       <button
         ref={ref}
         className={cn(
-          "inline-flex items-center justify-center font-medium rounded-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/50",
+          "inline-flex items-center justify-center font-medium rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary/30",
           // Variants
           variant === "primary" && [
             "bg-primary text-white hover:bg-primary-700 active:bg-primary-800",
-            "shadow-soft hover:shadow-medium",
           ],
           variant === "secondary" && [
-            "bg-white text-primary border-2 border-primary/20 hover:border-primary/40 hover:bg-mint",
-            "shadow-soft hover:shadow-medium",
+            "bg-white text-primary border border-gray-200 hover:border-gray-300 hover:bg-gray-50",
           ],
           variant === "ghost" && [
-            "text-primary hover:bg-mint hover:text-primary-700",
+            "text-muted hover:text-primary hover:bg-gray-50",
           ],
           variant === "outline" && [
-            "border-2 border-primary/30 text-primary hover:bg-primary hover:text-white",
+            "border border-primary/30 text-primary hover:bg-primary hover:text-white",
           ],
-          // Sizes
-          size === "sm" && "px-4 py-2 text-sm",
-          size === "md" && "px-6 py-3 text-base",
-          size === "lg" && "px-8 py-4 text-lg",
+          // Sizes - slightly smaller, more refined
+          size === "sm" && "px-3 py-1.5 text-sm",
+          size === "md" && "px-4 py-2.5 text-sm",
+          size === "lg" && "px-6 py-3 text-base",
           className
         )}
         {...props}
