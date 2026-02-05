@@ -23,24 +23,24 @@
     "headline": "Trusted by clinical engineering teams who need visibility without complexity"
   },
   "problem": {
-    "headline": "The Hidden Cost of \"Where Is It?\"",
-    "description": "Every day, clinical staff spend time they don't have searching for equipment that should be easy to find. IV pumps migrate between floors. Ventilators disappear into storage rooms. Biomed techs drive across campus looking for devices due for maintenance.",
-    "stat1": {
-      "value": "~20 min",
-      "label": "per nurse, per shift",
-      "description": "spent searching for equipment"
+    "headline": "Optimize equipment operations",
+    "description": "Improve staff efficiency and reduce costs with MediMind Track's real-time location, battery-free tracking, and intelligent utilization insights.",
+    "feature1": {
+      "title": "Real-time location",
+      "description": "Know where every IV pump, wheelchair, and ventilator is right now — not where it was scanned last week."
     },
-    "stat2": {
-      "value": "Thousands",
-      "label": "per bed annually",
-      "description": "in operational inefficiency"
+    "feature2": {
+      "title": "Battery-free tracking",
+      "description": "Tags harvest energy from ambient light. No batteries to replace, no dead tags, no maintenance burden."
     },
-    "stat3": {
-      "value": "Hours",
-      "label": "of technician time",
-      "description": "spent locating devices"
+    "feature3": {
+      "title": "Minimal infrastructure",
+      "description": "2-4 gateways cover your entire facility. Deploy in weeks, not months, with minimal IT coordination."
     },
-    "conclusion": "These aren't just inefficiencies — they ripple into patient care. Traditional solutions require dense infrastructure and ongoing battery programs. There's a more practical path."
+    "feature4": {
+      "title": "Utilization analytics",
+      "description": "See which assets sit idle, identify hoarding patterns, and right-size your inventory based on actual usage data."
+    }
   },
   "solution": {
     "headline": "See Everything. Maintain Nothing.",
@@ -99,7 +99,7 @@
   },
   "impact": {
     "headline": "Outcomes That Matter",
-    "description": "Hospitals using real-time equipment tracking typically see meaningful improvements across operations.",
+    "description": "Documented results from healthcare facilities using real-time asset tracking technology.",
     "stat1": {
       "value": "96%",
       "label": "reduction in search time"
@@ -109,36 +109,53 @@
       "label": "recovered per nursing shift"
     },
     "stat3": {
-      "value": "12-18 mo",
-      "label": "typical payback period"
+      "value": "25%",
+      "label": "inventory reduction"
     },
     "stat4": {
-      "value": "30%",
-      "label": "potential inventory reduction"
-    }
-  },
-  "testimonial": {
-    "quote": "We validated a significant reduction in equipment search time during our 90-day pilot. The decision to expand was straightforward.",
-    "author": "Clinical Engineering Director",
-    "company": "Regional Healthcare System",
-    "note": "Results may vary based on facility size and equipment mix"
+      "value": "75%",
+      "label": "fewer emergency rentals"
+    },
+    "source": "Based on documented outcomes from Southeastern Regional Medical Center's RTLS implementation. Individual results vary by facility size, equipment mix, and operational context."
   },
   "compliance": {
-    "headline": "Built for Healthcare Standards",
-    "award": {
-      "title": "2025 AIIC Innovation Award",
-      "description": "Recognized by the Italian Association of Clinical Engineers for innovation in healthcare asset management."
-    },
-    "security": {
-      "title": "Enterprise-Ready Security",
-      "items": {
-        "encryption": "End-to-end encryption",
-        "audit": "Complete audit trails",
-        "gdpr": "GDPR compliant",
-        "api": "REST API available"
+    "badge": "Enterprise Ready",
+    "headline": "Healthcare-Grade Security & Compliance",
+    "description": "Built from the ground up to meet the stringent requirements of healthcare environments. Your data security is our priority.",
+    "items": {
+      "hipaa": {
+        "title": "HIPAA Compliant",
+        "description": "Full compliance with Health Insurance Portability and Accountability Act requirements for protected health information."
+      },
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "AES-256 encryption for data at rest and TLS 1.3 for data in transit. Your location data is always protected."
+      },
+      "audit": {
+        "title": "Complete Audit Trails",
+        "description": "Comprehensive logging of all system access and data changes for regulatory compliance and internal review."
+      },
+      "soc2": {
+        "title": "SOC 2 Type II",
+        "description": "Independent verification of our security controls, availability, and confidentiality practices."
+      },
+      "gdpr": {
+        "title": "GDPR Compliant",
+        "description": "Full compliance with European data protection regulations including data minimization and right to erasure."
+      },
+      "enterprise": {
+        "title": "Enterprise Integration",
+        "description": "SSO, LDAP/AD integration, and REST APIs for seamless connection with your existing systems."
       }
     },
-    "swiss": "Swiss Engineering — Designed and developed by Native Digital SA in Switzerland"
+    "certifications": {
+      "title": "Trusted by Healthcare IT",
+      "subtitle": "Meeting the standards your compliance team requires",
+      "item1": "HIPAA",
+      "item2": "SOC 2",
+      "item3": "GDPR",
+      "item4": "ISO 27001"
+    }
   },
   "cta": {
     "headline": "Start Small. Prove Value. Then Decide.",

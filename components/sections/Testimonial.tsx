@@ -8,35 +8,35 @@ export function Testimonial() {
   const t = useTranslations("testimonial");
 
   return (
-    <section className="py-16 md:py-20 bg-gray-50">
-      <Container size="narrow">
-        <div className="relative">
-          {/* Quote icon */}
-          <div className="absolute -top-3 -left-3 w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center">
-            <Quote className="w-5 h-5 text-primary" />
-          </div>
+    <section className="py-24 bg-white">
+      <Container>
+        <div className="max-w-4xl mx-auto">
+          <div className="relative p-10 md:p-16 bg-[#EBF7F3] rounded-2xl">
+            {/* Quote icon */}
+            <div className="absolute top-8 left-8 w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm">
+              <Quote className="w-6 h-6 text-primary" />
+            </div>
 
-          <div className="bg-white rounded-lg border border-gray-100 p-6 md:p-8 relative">
-            <blockquote className="text-lg md:text-xl text-primary leading-relaxed mb-6">
+            <blockquote className="text-2xl md:text-3xl text-[#0A1F17] leading-relaxed mb-8 mt-8">
               &ldquo;{t("quote")}&rdquo;
             </blockquote>
 
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center space-x-4">
               {/* Avatar placeholder */}
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center text-white font-medium text-sm">
+              <div className="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white font-medium text-lg">
                 CE
               </div>
               <div>
-                <div className="font-medium text-sm text-primary">
+                <div className="font-medium text-base text-[#0A1F17]">
                   {t("author")}
                 </div>
-                <div className="text-muted text-xs">
+                <div className="text-muted text-sm">
                   {t("company")}
                 </div>
               </div>
             </div>
 
-            <p className="text-[11px] text-muted mt-4 italic">
+            <p className="text-xs text-muted mt-6 italic">
               {t("note")}
             </p>
           </div>

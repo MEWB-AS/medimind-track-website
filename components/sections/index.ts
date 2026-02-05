@@ -5,6 +5,5 @@ export { SolutionOverview } from "./SolutionOverview";
 export { HowItWorks } from "./HowItWorks";
 export { TechDifferentiators } from "./TechDifferentiators";
 export { ImpactMetrics } from "./ImpactMetrics";
-export { Testimonial } from "./Testimonial";
 export { Compliance } from "./Compliance";
 export { FinalCTA } from "./FinalCTA";

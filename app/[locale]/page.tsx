@@ -1,13 +1,11 @@
 import { Navigation, Footer } from "@/components/layout";
 import {
   Hero,
-  TrustBar,
   ProblemStatement,
   SolutionOverview,
   HowItWorks,
   TechDifferentiators,
   ImpactMetrics,
-  Testimonial,
   Compliance,
   FinalCTA,
 } from "@/components/sections";
@@ -18,13 +16,11 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <TrustBar />
         <ProblemStatement />
         <SolutionOverview />
         <HowItWorks />
-        <TechDifferentiators />
         <ImpactMetrics />
-        <Testimonial />
+        <TechDifferentiators />
         <Compliance />
         <FinalCTA />
       </main>

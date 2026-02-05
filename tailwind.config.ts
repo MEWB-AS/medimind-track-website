@@ -35,21 +35,21 @@ const config: Config = {
         },
         success: "#10B981",
         body: "#374151",
-        muted: "#6B7280",
+        muted: "#4B5563",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", "system-ui", "sans-serif"],
+        sans: ["Helvetica Neue", "Helvetica", "Arial", "system-ui", "sans-serif"],
       },
       fontSize: {
-        // Refined, smaller display sizes for cleaner look
-        "display-xl": ["3.25rem", { lineHeight: "1.15", fontWeight: "600", letterSpacing: "-0.02em" }],
-        "display-lg": ["2.5rem", { lineHeight: "1.2", fontWeight: "600", letterSpacing: "-0.02em" }],
-        "display-md": ["1.875rem", { lineHeight: "1.25", fontWeight: "600", letterSpacing: "-0.01em" }],
-        "display-sm": ["1.5rem", { lineHeight: "1.3", fontWeight: "600", letterSpacing: "-0.01em" }],
+        // Refined display sizes - balanced font weight for clean look
+        "display-xl": ["3.25rem", { lineHeight: "1.15", fontWeight: "400", letterSpacing: "-0.01em" }],
+        "display-lg": ["2.5rem", { lineHeight: "1.2", fontWeight: "400", letterSpacing: "-0.01em" }],
+        "display-md": ["1.875rem", { lineHeight: "1.25", fontWeight: "400", letterSpacing: "-0.01em" }],
+        "display-sm": ["1.5rem", { lineHeight: "1.3", fontWeight: "400", letterSpacing: "-0.01em" }],
         // Body text
-        "body-lg": ["1.125rem", { lineHeight: "1.7", fontWeight: "400" }],
-        "body": ["1rem", { lineHeight: "1.7", fontWeight: "400" }],
-        "body-sm": ["0.875rem", { lineHeight: "1.6", fontWeight: "400" }],
+        "body-lg": ["1.125rem", { lineHeight: "1.75", fontWeight: "400" }],
+        "body": ["1rem", { lineHeight: "1.75", fontWeight: "400" }],
+        "body-sm": ["0.875rem", { lineHeight: "1.65", fontWeight: "400" }],
       },
       spacing: {
         "section": "5rem",
