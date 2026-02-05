@@ -1,0 +1,172 @@
+{
+  "metadata": {
+    "title": "MediMind Track | Intelligent Medical Device Tracking",
+    "description": "Real-time visibility for mobile medical equipment with battery-free tracking, minimal infrastructure, and a pilot-first approach."
+  },
+  "nav": {
+    "solution": "Solution",
+    "features": "Features",
+    "howItWorks": "How It Works",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Book a Pilot Assessment"
+  },
+  "hero": {
+    "badge": "Pilot-Ready",
+    "headline": "Stop searching. Start knowing.",
+    "subheadline": "Real-time visibility for mobile medical equipment — with battery-free tracking, minimal infrastructure, and a pilot-first approach that proves value before you scale.",
+    "description": "Your staff shouldn't spend their shift hunting for IV pumps. MediMind Track shows you where equipment is, how it's being used, and what you actually need — without adding maintenance burden to your team.",
+    "cta": "Book a Pilot Assessment",
+    "ctaSecondary": "See How It Works"
+  },
+  "trustBar": {
+    "headline": "Trusted by clinical engineering teams who need visibility without complexity"
+  },
+  "problem": {
+    "headline": "The Hidden Cost of \"Where Is It?\"",
+    "description": "Every day, clinical staff spend time they don't have searching for equipment that should be easy to find. IV pumps migrate between floors. Ventilators disappear into storage rooms. Biomed techs drive across campus looking for devices due for maintenance.",
+    "stat1": {
+      "value": "~20 min",
+      "label": "per nurse, per shift",
+      "description": "spent searching for equipment"
+    },
+    "stat2": {
+      "value": "Thousands",
+      "label": "per bed annually",
+      "description": "in operational inefficiency"
+    },
+    "stat3": {
+      "value": "Hours",
+      "label": "of technician time",
+      "description": "spent locating devices"
+    },
+    "conclusion": "These aren't just inefficiencies — they ripple into patient care. Traditional solutions require dense infrastructure and ongoing battery programs. There's a more practical path."
+  },
+  "solution": {
+    "headline": "See Everything. Maintain Nothing.",
+    "description": "MediMind Track gives you real-time visibility into your mobile equipment fleet — where it is, how it's moving, and whether you have the right amount.",
+    "feature1": {
+      "title": "Real-Time Location",
+      "description": "Know where equipment is right now — not where it was scanned last week. Search by device type, department, or specific asset."
+    },
+    "feature2": {
+      "title": "Battery-Free Tracking",
+      "description": "Our tags harvest energy from ambient light. No battery replacement programs. No dead tags creating blind spots in your data."
+    },
+    "feature3": {
+      "title": "Minimal Infrastructure",
+      "description": "Typically 1-2 powered gateways per floor, depending on your layout. Not dozens of access points requiring IT coordination."
+    },
+    "feature4": {
+      "title": "Utilization Intelligence",
+      "description": "Go beyond location. See which assets sit idle, identify hoarding patterns, and right-size your inventory based on actual usage."
+    },
+    "cta": "Explore the Product"
+  },
+  "howItWorks": {
+    "headline": "Deployed in Weeks, Not Months",
+    "description": "No complex ceiling infrastructure. No IT firewall battles. No six-month implementation timelines.",
+    "step1": {
+      "title": "Tag",
+      "description": "Attach lightweight, battery-free labels to your equipment. Takes seconds per device. No charging, no pairing, no maintenance schedule."
+    },
+    "step2": {
+      "title": "Connect",
+      "description": "Install a small number of powered gateways — typically 1-2 per floor. They communicate with tags using long-range, low-power signals."
+    },
+    "step3": {
+      "title": "Track",
+      "description": "Access equipment locations through a clean web dashboard or mobile app. Search naturally: \"Where are the available IV pumps on 3 North?\""
+    },
+    "timeline": "Typical pilot deployment: 2-4 weeks from kickoff to live data"
+  },
+  "differentiators": {
+    "section1": {
+      "headline": "Zero Battery Maintenance. Ever.",
+      "description": "Our tags use photovoltaic cells powered by ambient indoor light, storing energy in carbon-based supercapacitors. No lithium batteries to replace. No maintenance schedules to manage. No dead tags creating blind spots.",
+      "highlight": "The only carbon-based supercapacitor solution — recyclable and sustainable."
+    },
+    "section2": {
+      "headline": "1-2 Gateways Per Floor. Entire Hospital Coverage.",
+      "description": "Long-range communication means fewer access points, simpler installation, and less IT coordination. Cover more area with less infrastructure.",
+      "highlight": "Compare to traditional RTLS: 10-20+ access points per floor."
+    },
+    "section3": {
+      "headline": "Ask Questions. Get Answers.",
+      "description": "Our AI-powered mobile assistant understands natural language. Ask \"Where's the nearest portable ultrasound?\" and get instant answers. No complex menus or search filters.",
+      "highlight": "Built for clinical workflows, not IT departments."
+    }
+  },
+  "impact": {
+    "headline": "Outcomes That Matter",
+    "description": "Hospitals using real-time equipment tracking typically see meaningful improvements across operations.",
+    "stat1": {
+      "value": "96%",
+      "label": "reduction in search time"
+    },
+    "stat2": {
+      "value": "~1 hour",
+      "label": "recovered per nursing shift"
+    },
+    "stat3": {
+      "value": "12-18 mo",
+      "label": "typical payback period"
+    },
+    "stat4": {
+      "value": "30%",
+      "label": "potential inventory reduction"
+    }
+  },
+  "testimonial": {
+    "quote": "We validated a significant reduction in equipment search time during our 90-day pilot. The decision to expand was straightforward.",
+    "author": "Clinical Engineering Director",
+    "company": "Regional Healthcare System",
+    "note": "Results may vary based on facility size and equipment mix"
+  },
+  "compliance": {
+    "headline": "Built for Healthcare Standards",
+    "award": {
+      "title": "2025 AIIC Innovation Award",
+      "description": "Recognized by the Italian Association of Clinical Engineers for innovation in healthcare asset management."
+    },
+    "security": {
+      "title": "Enterprise-Ready Security",
+      "items": {
+        "encryption": "End-to-end encryption",
+        "audit": "Complete audit trails",
+        "gdpr": "GDPR compliant",
+        "api": "REST API available"
+      }
+    },
+    "swiss": "Swiss Engineering — Designed and developed by Native Digital SA in Switzerland"
+  },
+  "cta": {
+    "headline": "Start Small. Prove Value. Then Decide.",
+    "description": "Book a 30-minute pilot assessment. We'll discuss your equipment challenges, walk through the platform, and outline what a focused pilot would look like for your facility.",
+    "button": "Book Your Assessment",
+    "alternative": "Questions first?",
+    "contact": "Contact our team"
+  },
+  "footer": {
+    "description": "Intelligent medical device tracking with battery-free technology and minimal infrastructure.",
+    "product": {
+      "title": "Product",
+      "features": "Features",
+      "howItWorks": "How It Works",
+      "pilot": "Pilot Program"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About",
+      "contact": "Contact"
+    },
+    "legal": {
+      "title": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "imprint": "Imprint"
+    },
+    "copyright": "© 2025 MediMind Track. Powered by Native Digital SA, Switzerland.",
+    "tagline": "Find it. Use it. Move on."
+  }
+}
