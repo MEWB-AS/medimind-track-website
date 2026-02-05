@@ -1,21 +1,20 @@
 {
   "metadata": {
-    "title": "MediMind Track | Intelligent Medical Device Tracking",
+    "title": "MediMind Sense | Intelligent Medical Device Tracking",
     "description": "Real-time visibility for mobile medical equipment with battery-free tracking, minimal infrastructure, and a pilot-first approach."
   },
   "nav": {
-    "solution": "Solution",
-    "features": "Features",
-    "howItWorks": "How It Works",
+    "home": "Home",
+    "platform": "Platform",
+    "technology": "Technology",
     "about": "About",
-    "contact": "Contact",
-    "cta": "Book a Pilot Assessment"
+    "cta": "Get Started"
   },
   "hero": {
     "badge": "Pilot-Ready",
     "headline": "Stop searching. Start knowing.",
     "subheadline": "Real-time visibility for mobile medical equipment — with battery-free tracking, minimal infrastructure, and a pilot-first approach that proves value before you scale.",
-    "description": "Your staff shouldn't spend their shift hunting for IV pumps. MediMind Track shows you where equipment is, how it's being used, and what you actually need — without adding maintenance burden to your team.",
+    "description": "Your staff shouldn't spend their shift hunting for IV pumps. MediMind Sense shows you where equipment is, how it's being used, and what you actually need — without adding maintenance burden to your team.",
     "cta": "Book a Pilot Assessment",
     "ctaSecondary": "See How It Works"
   },
@@ -24,7 +23,7 @@
   },
   "problem": {
     "headline": "Optimize equipment operations",
-    "description": "Improve staff efficiency and reduce costs with MediMind Track's real-time location, battery-free tracking, and intelligent utilization insights.",
+    "description": "Improve staff efficiency and reduce costs with MediMind Sense's real-time location, battery-free tracking, and intelligent utilization insights.",
     "feature1": {
       "title": "Real-time location",
       "description": "Know where every IV pump, wheelchair, and ventilator is right now — not where it was scanned last week."
@@ -44,7 +43,7 @@
   },
   "solution": {
     "headline": "See Everything. Maintain Nothing.",
-    "description": "MediMind Track gives you real-time visibility into your mobile equipment fleet — where it is, how it's moving, and whether you have the right amount.",
+    "description": "MediMind Sense gives you real-time visibility into your mobile equipment fleet — where it is, how it's moving, and whether you have the right amount.",
     "feature1": {
       "title": "Real-Time Location",
       "description": "Know where equipment is right now — not where it was scanned last week. Search by device type, department, or specific asset."
@@ -164,6 +163,279 @@
     "alternative": "Questions first?",
     "contact": "Contact our team"
   },
+  "about": {
+    "hero": {
+      "headline": "Built by doctors. For doctors.",
+      "subheadline": "MediMind was founded alongside practicing physicians, surgeons, and healthcare professionals to solve real problems inside hospitals and clinics — not hypothetical ones."
+    },
+    "medimind": {
+      "headline": "Why MediMind exists",
+      "paragraph1": "Most healthcare software is built by people who have never worked a shift in a hospital. The result is systems that look good in demos but create friction in practice. Workflows that make sense on a whiteboard but fall apart at 3 AM when a nurse needs to find an IV pump.",
+      "paragraph2": "MediMind started differently. Our founders spent years working in clinical environments, observing the gap between how healthcare systems actually function and how technology vendors assume they work. We saw the workarounds. The frustration. The wasted time.",
+      "paragraph3": "So we built a company around a simple principle: involve clinicians from the start — not as focus group participants, but as partners, advisors, and co-builders. Every product decision is informed by people who understand the reality of patient care."
+    },
+    "sense": {
+      "headline": "Introducing MediMind Sense",
+      "paragraph1": "MediMind Sense is our real-time asset visibility platform. It helps clinical and operations teams know where mobile medical equipment is, how it's being used, and whether they have the right amount.",
+      "paragraph2": "The idea came directly from hospital floors. We watched staff spend significant portions of their shifts searching for wheelchairs, IV pumps, and portable monitors. We saw departments hoarding equipment out of fear they wouldn't find it when needed. We documented the workarounds, the radio calls, the frustration.",
+      "paragraph3": "Sense was designed to solve this without adding burden. Battery-free tags that require no maintenance. Minimal infrastructure that deploys in weeks. A simple interface that works the way clinicians think — not the way IT systems are typically organized."
+    },
+    "clinicians": {
+      "headline": "Built with clinicians, not just for them",
+      "paragraph1": "Thirteen practicing doctors serve as advisors, seed investors, and active contributors to MediMind. They aren't names on a website. They participate in product reviews, challenge our assumptions, and ensure we stay grounded in clinical reality.",
+      "paragraph2": "These physicians represent different specialties — from emergency medicine to surgery to internal medicine. They work in different hospital systems across different countries. This diversity means we hear multiple perspectives on every decision we make.",
+      "paragraph3": "When we debate a feature, a doctor is in the room. When we design a workflow, we test it with people who will actually use it. This isn't a marketing message — it's how we work."
+    },
+    "advisors": {
+      "headline": "Clinical Advisors & Co-Builders",
+      "intro": "Our clinical advisory network includes physicians from multiple specialties who contribute their expertise, invest their time, and help shape the platform based on real-world clinical experience."
+    },
+    "closing": {
+      "headline": "Building carefully, for the long term",
+      "paragraph": "Healthcare moves slowly for good reasons. Patient safety, regulatory requirements, and institutional complexity all demand careful, thoughtful approaches. We're not trying to disrupt healthcare — we're trying to make it work a little better, one practical improvement at a time. That means building responsibly, listening closely, and earning trust through results rather than promises."
+    }
+  },
+  "platform": {
+    "hero": {
+      "badge": "The Platform",
+      "headline": "Complete visibility. Zero complexity.",
+      "subheadline": "A unified dashboard for tracking every mobile medical device in your facility — with real-time location, utilization insights, and natural language search.",
+      "cta": "Book a Demo"
+    },
+    "dashboard": {
+      "caption": "Real-time dashboard showing device locations, availability, and utilization across your facility."
+    },
+    "features": {
+      "headline": "Everything you need to manage mobile equipment",
+      "description": "Purpose-built features that solve real problems without adding complexity to your operations.",
+      "location": {
+        "title": "Real-Time Location",
+        "description": "Know exactly where every IV pump, wheelchair, and ventilator is right now — not where it was scanned last week.",
+        "highlight1": "Room-level accuracy",
+        "highlight2": "Live floor plan visualization",
+        "highlight3": "Historical movement tracking"
+      },
+      "battery": {
+        "title": "Battery-Free Tracking",
+        "description": "Our tags harvest energy from ambient light. No batteries to replace, no dead tags, no maintenance burden on your team.",
+        "highlight1": "Zero maintenance required",
+        "highlight2": "Powered by indoor light",
+        "highlight3": "Carbon-based supercapacitors"
+      },
+      "analytics": {
+        "title": "Utilization Analytics",
+        "description": "See which assets sit idle, identify hoarding patterns, and right-size your inventory based on actual usage data.",
+        "highlight1": "Utilization reports by device type",
+        "highlight2": "Hoarding detection alerts",
+        "highlight3": "Inventory optimization insights"
+      },
+      "search": {
+        "title": "Natural Language Search",
+        "description": "Ask questions in plain English. \"Where's the nearest available IV pump?\" and get instant, accurate answers.",
+        "highlight1": "AI-powered search",
+        "highlight2": "Voice-enabled on mobile",
+        "highlight3": "Context-aware results"
+      }
+    },
+    "mobile": {
+      "badge": "Mobile App",
+      "headline": "Find equipment from anywhere",
+      "description": "Your staff shouldn't have to return to a workstation to locate equipment. Our mobile app puts real-time asset visibility in their pocket.",
+      "feature1": "Natural language search — just ask",
+      "feature2": "Turn-by-turn navigation to devices",
+      "feature3": "Instant availability updates"
+    },
+    "integration": {
+      "headline": "Integrates with your existing systems",
+      "description": "MediMind Sense works alongside your current infrastructure. No rip-and-replace required.",
+      "item1": {
+        "title": "EHR Integration",
+        "desc": "Connect with Epic, Cerner, and other major EHR systems."
+      },
+      "item2": {
+        "title": "SSO & Directory",
+        "desc": "LDAP, Active Directory, and SAML 2.0 support."
+      },
+      "item3": {
+        "title": "REST API",
+        "desc": "Full API access for custom integrations and reporting."
+      }
+    },
+    "cta": {
+      "headline": "See it in action",
+      "description": "Book a personalized demo and we'll show you exactly how MediMind Sense would work in your facility.",
+      "button": "Schedule a Demo"
+    }
+  },
+  "technology": {
+    "hero": {
+      "badge": "Our Technology",
+      "headline": "Engineered for healthcare",
+      "subheadline": "Purpose-built technology that delivers reliable tracking without the maintenance burden, infrastructure complexity, or IT coordination of traditional RTLS systems."
+    },
+    "pillars": {
+      "energy": {
+        "title": "Energy Harvesting",
+        "description": "Smart labels use state-of-the-art photovoltaic cells optimized for indoor artificial light, combined with supercapacitors for energy storage.",
+        "highlight1": "Continuous operation with hospital ambient lighting",
+        "highlight2": "Ability to operate in variable conditions",
+        "highlight3": "No energy maintenance costs",
+        "highlight4": "Zero risk of non-functioning tags due to depleted batteries",
+        "highlight5": "Environmental sustainability: no lithium, fully recyclable carbon-based supercapacitors"
+      },
+      "range": {
+        "title": "Long-Range Communication",
+        "description": "Sub-GHz long-range technology on ISM band with exceptional range and low power consumption. A single gateway covers areas up to 10 km in open spaces and 1-2 km through barriers in hospital environments.",
+        "highlight1": "Only 3-5 gateways for complete hospital",
+        "highlight2": "Superior penetration through walls and obstacles",
+        "highlight3": "Resistance to electromagnetic interference",
+        "highlight4": "Elastic scalability without redesign"
+      },
+      "hybrid": {
+        "title": "Hybrid Localization",
+        "description": "Intelligent fusion of data from multiple sources for optimal precision in any environment.",
+        "highlight1": "Metric precision in critical areas",
+        "highlight2": "Self-configuration of labels",
+        "highlight3": "Robustness in adverse conditions",
+        "highlight4": "Outdoor tracking as well"
+      }
+    },
+    "comparison": {
+      "headline": "Comparison with Alternative Technologies",
+      "feature": "Feature",
+      "unlimited": "Unlimited",
+      "features": {
+        "precision": "Precision",
+        "coverage": "Coverage per point",
+        "energy": "Energy autonomy",
+        "gateways": "Gateways needed",
+        "facility": "Gateways for typical facility (6 floors, 240 rooms)",
+        "installation": "Installation time",
+        "payback": "Payback period"
+      },
+      "disclaimer": "* Vendor-reported outcomes validated in pilots. Individual results vary by facility size, equipment mix, and operational context."
+    },
+    "specs": {
+      "label": {
+        "title": "Smart Labels",
+        "description": "Ultra-thin adhesive labels with energy harvesting from state-of-the-art photovoltaic cells. No batteries to replace, continuous operation with ambient light.",
+        "dimensions": "Dimensions",
+        "dimensionsValue": "Ultra-thin, adhesive",
+        "power": "Power",
+        "powerValue": "State-of-the-art photovoltaic cells + supercapacitor",
+        "sensors": "Sensors",
+        "sensorsValue": "3-axis accelerometer, temperature, humidity",
+        "communication": "Communication",
+        "communicationValue": "Sub-GHz (ISM band), passive Wi-Fi scan",
+        "gnss": "GNSS",
+        "gnssValue": "GPS, GLONASS, Galileo, BeiDou",
+        "durability": "Durability",
+        "durabilityValue": "IP65, disinfectant resistant"
+      },
+      "gateway": {
+        "title": "Long-Range Gateway",
+        "description": "Minimal infrastructure: only 3-5 gateways to cover an entire hospital. Range up to 10 km outdoor, over 1 km indoor.",
+        "range": "Range",
+        "rangeValue": "Up to 10km outdoor, 1-2km indoor",
+        "capacity": "Capacity",
+        "capacityValue": "Thousands of simultaneous tags",
+        "connectivity": "Connectivity",
+        "connectivityValue": "Ethernet, Wi-Fi, 4G/5G",
+        "edge": "Edge Computing",
+        "edgeValue": "Integrated ARM processor",
+        "sync": "Synchronization",
+        "syncValue": "NTP, GPS",
+        "power": "Power",
+        "powerValue": "PoE or external power supply"
+      },
+      "cloud": {
+        "title": "Cloud Platform",
+        "description": "Secure, HIPAA-compliant processing with real-time dashboards, mobile apps, and AI-powered insights.",
+        "architecture": "Architecture",
+        "architectureValue": "Cloud-native microservices",
+        "storage": "Storage",
+        "storageValue": "Time-series DB + SQL + NoSQL",
+        "aiml": "AI/ML",
+        "aimlValue": "Predictions and optimizations",
+        "audit": "Audit Trail",
+        "auditValue": "Immutable logging for compliance",
+        "api": "API",
+        "apiValue": "REST/WebSocket for integrations",
+        "security": "Security",
+        "securityValue": "End-to-end encryption, GDPR compliant"
+      }
+    },
+    "detailedSpecs": {
+      "headline": "Detailed Technical Specifications",
+      "label": {
+        "title": "Smart Label",
+        "dimensions": "Dimensions",
+        "dimensionsValue": "Ultra-thin, adhesive",
+        "power": "Power",
+        "powerValue": "State-of-the-art photovoltaic cells + supercapacitor",
+        "sensors": "Sensors",
+        "sensorsValue": "3-axis accelerometer, temperature, humidity",
+        "communication": "Communication",
+        "communicationValue": "Sub-GHz (ISM band), passive Wi-Fi scan",
+        "gnss": "GNSS",
+        "gnssValue": "GPS, GLONASS, Galileo, BeiDou",
+        "durability": "Durability",
+        "durabilityValue": "IP65, disinfectant resistant"
+      },
+      "gateway": {
+        "title": "Gateway",
+        "range": "Range",
+        "rangeValue": "Up to 10km outdoor, 1-2km indoor",
+        "capacity": "Capacity",
+        "capacityValue": "Thousands of simultaneous tags",
+        "connectivity": "Connectivity",
+        "connectivityValue": "Ethernet, Wi-Fi, 4G/5G",
+        "edge": "Edge Computing",
+        "edgeValue": "Integrated ARM processor",
+        "sync": "Synchronization",
+        "syncValue": "NTP, GPS",
+        "power": "Power",
+        "powerValue": "PoE or external power supply"
+      },
+      "cloud": {
+        "title": "Cloud Platform",
+        "architecture": "Architecture",
+        "architectureValue": "Cloud-native microservices",
+        "storage": "Storage",
+        "storageValue": "Time-series DB + SQL + NoSQL",
+        "aiml": "AI/ML",
+        "aimlValue": "Predictions and optimizations",
+        "audit": "Audit Trail",
+        "auditValue": "Immutable logging for compliance",
+        "api": "API",
+        "apiValue": "REST/WebSocket for integrations",
+        "security": "Security",
+        "securityValue": "End-to-end encryption, GDPR compliant"
+      }
+    },
+    "security": {
+      "badge": "Enterprise Security",
+      "headline": "Healthcare-grade security & compliance",
+      "description": "Built from the ground up to meet the stringent requirements of healthcare environments.",
+      "item1": {
+        "title": "End-to-End Encryption",
+        "desc": "AES-256 at rest, TLS 1.3 in transit. Your data is always protected."
+      },
+      "item2": {
+        "title": "HIPAA Compliant",
+        "desc": "Full compliance with healthcare data protection requirements."
+      },
+      "item3": {
+        "title": "SOC 2 Type II",
+        "desc": "Independent verification of our security controls and practices."
+      }
+    },
+    "cta": {
+      "headline": "See the technology in action",
+      "description": "Book a technical deep-dive with our team to understand how our technology would integrate with your facility.",
+      "button": "Schedule Technical Review"
+    }
+  },
   "footer": {
     "description": "Intelligent medical device tracking with battery-free technology and minimal infrastructure.",
     "product": {
@@ -183,7 +455,7 @@
       "terms": "Terms of Service",
       "imprint": "Imprint"
     },
-    "copyright": "© 2025 MediMind Track. Powered by Native Digital SA, Switzerland.",
+    "copyright": "© 2025 MediMind Sense. All rights reserved.",
     "tagline": "Find it. Use it. Move on."
   }
 }

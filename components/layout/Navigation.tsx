@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import Image from "next/image";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -23,10 +23,10 @@ export function Navigation() {
   }, []);
 
   const navLinks = [
-    { href: "#solution", label: t("solution") },
-    { href: "#features", label: t("features") },
-    { href: "#how-it-works", label: t("howItWorks") },
-    { href: "#contact", label: t("contact") },
+    { href: "/", label: t("home") },
+    { href: "/platform", label: t("platform") },
+    { href: "/technology", label: t("technology") },
+    { href: "/about", label: t("about") },
   ];
 
   return (
@@ -44,7 +44,7 @@ export function Navigation() {
           <Link href="/" className="flex items-center space-x-2">
             <Image
               src="/logo.svg"
-              alt="MediMind Track"
+              alt="MediMind Sense"
               width={150}
               height={36}
               className="h-8 w-auto"
@@ -52,8 +52,8 @@ export function Navigation() {
             />
           </Link>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
+          {/* Desktop Navigation + CTA grouped together */}
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -63,11 +63,7 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
-          </div>
-
-          {/* Desktop CTA */}
-          <div className="hidden md:block">
-            <Button variant="primary" size="sm">
+            <Button variant="primary" className="px-5 py-2 text-sm">
               {t("cta")}
             </Button>
           </div>

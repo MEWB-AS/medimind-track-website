@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "MediMind Track | Intelligent Medical Device Tracking",
+  title: "MediMind Sense | Intelligent Medical Device Tracking",
   description:
     "Real-time visibility for mobile medical equipment with battery-free tracking, minimal infrastructure, and a pilot-first approach.",
   keywords: [

@@ -1,21 +1,20 @@
 {
   "metadata": {
-    "title": "MediMind Track | Intelligent Medical Device Tracking",
+    "title": "MediMind Sense | Intelligent Medical Device Tracking",
     "description": "Real-time visibility for mobile medical equipment with battery-free tracking, minimal infrastructure, and a pilot-first approach."
   },
   "nav": {
-    "solution": "Solution",
-    "features": "Features",
-    "howItWorks": "How It Works",
-    "about": "About",
-    "contact": "Contact",
-    "cta": "Book a Pilot Assessment"
+    "home": "Hjem",
+    "platform": "Plattform",
+    "technology": "Teknologi",
+    "about": "Om oss",
+    "cta": "Kom i gang"
   },
   "hero": {
     "badge": "Pilot-Ready",
     "headline": "Stop searching. Start knowing.",
     "subheadline": "Real-time visibility for mobile medical equipment — with battery-free tracking, minimal infrastructure, and a pilot-first approach that proves value before you scale.",
-    "description": "Your staff shouldn't spend their shift hunting for IV pumps. MediMind Track shows you where equipment is, how it's being used, and what you actually need — without adding maintenance burden to your team.",
+    "description": "Your staff shouldn't spend their shift hunting for IV pumps. MediMind Sense shows you where equipment is, how it's being used, and what you actually need — without adding maintenance burden to your team.",
     "cta": "Book a Pilot Assessment",
     "ctaSecondary": "See How It Works"
   },
@@ -24,7 +23,7 @@
   },
   "problem": {
     "headline": "Optimize equipment operations",
-    "description": "Improve staff efficiency and reduce costs with MediMind Track's real-time location, battery-free tracking, and intelligent utilization insights.",
+    "description": "Improve staff efficiency and reduce costs with MediMind Sense's real-time location, battery-free tracking, and intelligent utilization insights.",
     "feature1": {
       "title": "Real-time location",
       "description": "Know where every IV pump, wheelchair, and ventilator is right now — not where it was scanned last week."
@@ -44,7 +43,7 @@
   },
   "solution": {
     "headline": "See Everything. Maintain Nothing.",
-    "description": "MediMind Track gives you real-time visibility into your mobile equipment fleet — where it is, how it's moving, and whether you have the right amount.",
+    "description": "MediMind Sense gives you real-time visibility into your mobile equipment fleet — where it is, how it's moving, and whether you have the right amount.",
     "feature1": {
       "title": "Real-Time Location",
       "description": "Know where equipment is right now — not where it was scanned last week. Search by device type, department, or specific asset."
@@ -164,6 +163,279 @@
     "alternative": "Questions first?",
     "contact": "Contact our team"
   },
+  "about": {
+    "hero": {
+      "headline": "Built by doctors. For doctors.",
+      "subheadline": "MediMind was founded alongside practicing physicians, surgeons, and healthcare professionals to solve real problems inside hospitals and clinics — not hypothetical ones."
+    },
+    "medimind": {
+      "headline": "Why MediMind exists",
+      "paragraph1": "Most healthcare software is built by people who have never worked a shift in a hospital. The result is systems that look good in demos but create friction in practice. Workflows that make sense on a whiteboard but fall apart at 3 AM when a nurse needs to find an IV pump.",
+      "paragraph2": "MediMind started differently. Our founders spent years working in clinical environments, observing the gap between how healthcare systems actually function and how technology vendors assume they work. We saw the workarounds. The frustration. The wasted time.",
+      "paragraph3": "So we built a company around a simple principle: involve clinicians from the start — not as focus group participants, but as partners, advisors, and co-builders. Every product decision is informed by people who understand the reality of patient care."
+    },
+    "sense": {
+      "headline": "Introducing MediMind Sense",
+      "paragraph1": "MediMind Sense is our real-time asset visibility platform. It helps clinical and operations teams know where mobile medical equipment is, how it's being used, and whether they have the right amount.",
+      "paragraph2": "The idea came directly from hospital floors. We watched staff spend significant portions of their shifts searching for wheelchairs, IV pumps, and portable monitors. We saw departments hoarding equipment out of fear they wouldn't find it when needed. We documented the workarounds, the radio calls, the frustration.",
+      "paragraph3": "Sense was designed to solve this without adding burden. Battery-free tags that require no maintenance. Minimal infrastructure that deploys in weeks. A simple interface that works the way clinicians think — not the way IT systems are typically organized."
+    },
+    "clinicians": {
+      "headline": "Built with clinicians, not just for them",
+      "paragraph1": "Thirteen practicing doctors serve as advisors, seed investors, and active contributors to MediMind. They aren't names on a website. They participate in product reviews, challenge our assumptions, and ensure we stay grounded in clinical reality.",
+      "paragraph2": "These physicians represent different specialties — from emergency medicine to surgery to internal medicine. They work in different hospital systems across different countries. This diversity means we hear multiple perspectives on every decision we make.",
+      "paragraph3": "When we debate a feature, a doctor is in the room. When we design a workflow, we test it with people who will actually use it. This isn't a marketing message — it's how we work."
+    },
+    "advisors": {
+      "headline": "Clinical Advisors & Co-Builders",
+      "intro": "Our clinical advisory network includes physicians from multiple specialties who contribute their expertise, invest their time, and help shape the platform based on real-world clinical experience."
+    },
+    "closing": {
+      "headline": "Building carefully, for the long term",
+      "paragraph": "Healthcare moves slowly for good reasons. Patient safety, regulatory requirements, and institutional complexity all demand careful, thoughtful approaches. We're not trying to disrupt healthcare — we're trying to make it work a little better, one practical improvement at a time. That means building responsibly, listening closely, and earning trust through results rather than promises."
+    }
+  },
+  "platform": {
+    "hero": {
+      "badge": "Plattformen",
+      "headline": "Komplett oversikt. Null kompleksitet.",
+      "subheadline": "Et samlet dashbord for sporing av alt mobilt medisinsk utstyr i din institusjon — med sanntidslokalisering, bruksinnsikt og naturlig språksøk.",
+      "cta": "Book en demo"
+    },
+    "dashboard": {
+      "caption": "Sanntids dashbord som viser enhetslokalisering, tilgjengelighet og utnyttelse på tvers av institusjonen din."
+    },
+    "features": {
+      "headline": "Alt du trenger for å administrere mobilt utstyr",
+      "description": "Formålsbyggede funksjoner som løser reelle problemer uten å legge til kompleksitet i driften.",
+      "location": {
+        "title": "Sanntidslokalisering",
+        "description": "Vet nøyaktig hvor hver infusjonspumpe, rullestol og respirator er akkurat nå — ikke hvor den ble skannet forrige uke.",
+        "highlight1": "Romnivå-nøyaktighet",
+        "highlight2": "Live plantegningsvisualisering",
+        "highlight3": "Historisk bevegelsesporing"
+      },
+      "battery": {
+        "title": "Batterifri sporing",
+        "description": "Våre brikker henter energi fra omgivelseslys. Ingen batterier å bytte, ingen døde brikker, ingen vedlikeholdsbyrde for teamet ditt.",
+        "highlight1": "Null vedlikehold nødvendig",
+        "highlight2": "Drevet av innendørs lys",
+        "highlight3": "Karbonbaserte superkondensatorer"
+      },
+      "analytics": {
+        "title": "Bruksanalyse",
+        "description": "Se hvilke eiendeler som står ubrukt, identifiser hamstringsmønstre, og optimaliser beholdningen din basert på faktiske bruksdata.",
+        "highlight1": "Utnyttelsesrapporter etter enhetstype",
+        "highlight2": "Varsler om hamstring",
+        "highlight3": "Innsikt i lageroptimalisering"
+      },
+      "search": {
+        "title": "Naturlig språksøk",
+        "description": "Still spørsmål på vanlig norsk. \"Hvor er nærmeste ledige infusjonspumpe?\" og få umiddelbare, nøyaktige svar.",
+        "highlight1": "AI-drevet søk",
+        "highlight2": "Stemmeaktivering på mobil",
+        "highlight3": "Kontekstbevisste resultater"
+      }
+    },
+    "mobile": {
+      "badge": "Mobilapp",
+      "headline": "Finn utstyr fra hvor som helst",
+      "description": "Dine ansatte skal ikke trenge å gå tilbake til en arbeidsstasjon for å finne utstyr. Vår mobilapp gir dem sanntids utstyrsoversikt i lommen.",
+      "feature1": "Naturlig språksøk — bare spør",
+      "feature2": "Veibeskrivelse til enheter",
+      "feature3": "Umiddelbare tilgjengelighetsoppdateringer"
+    },
+    "integration": {
+      "headline": "Integreres med dine eksisterende systemer",
+      "description": "MediMind Sense fungerer sammen med din nåværende infrastruktur. Ingen utskiftning nødvendig.",
+      "item1": {
+        "title": "EPJ-integrasjon",
+        "desc": "Koble til DIPS, Epic, Cerner og andre store EPJ-systemer."
+      },
+      "item2": {
+        "title": "SSO & katalog",
+        "desc": "LDAP, Active Directory og SAML 2.0 støtte."
+      },
+      "item3": {
+        "title": "REST API",
+        "desc": "Full API-tilgang for egendefinerte integrasjoner og rapportering."
+      }
+    },
+    "cta": {
+      "headline": "Se det i aksjon",
+      "description": "Book en personlig demo, så viser vi deg nøyaktig hvordan MediMind Sense vil fungere i din institusjon.",
+      "button": "Book en demo"
+    }
+  },
+  "technology": {
+    "hero": {
+      "badge": "Vår teknologi",
+      "headline": "Utviklet for helsevesenet",
+      "subheadline": "Formålsbygget teknologi som leverer pålitelig sporing uten vedlikeholdsbyrden, infrastrukturkompleksiteten eller IT-koordineringen som kreves av tradisjonelle RTLS-systemer."
+    },
+    "pillars": {
+      "energy": {
+        "title": "Energihøsting",
+        "description": "Smarte etiketter bruker toppmoderne fotovoltaiske celler optimalisert for innendørs kunstig lys, kombinert med superkondensatorer for energilagring.",
+        "highlight1": "Kontinuerlig drift med sykehusets omgivelsesbelysning",
+        "highlight2": "Evne til å operere under variable forhold",
+        "highlight3": "Ingen energivedlikeholdskostnader",
+        "highlight4": "Null risiko for ikke-fungerende brikker på grunn av tomme batterier",
+        "highlight5": "Miljømessig bærekraft: ingen litium, fullt resirkulerbare karbonbaserte superkondensatorer"
+      },
+      "range": {
+        "title": "Langdistansekommunikasjon",
+        "description": "Sub-GHz langdistanseteknologi på ISM-båndet med eksepsjonell rekkevidde og lavt strømforbruk. En enkelt gateway dekker områder opptil 10 km i åpne områder og 1-2 km gjennom barrierer i sykehusmiljøer.",
+        "highlight1": "Kun 3-5 gatewayer for komplett sykehus",
+        "highlight2": "Overlegen gjennomtrengning gjennom vegger og hindringer",
+        "highlight3": "Motstand mot elektromagnetisk interferens",
+        "highlight4": "Elastisk skalerbarhet uten redesign"
+      },
+      "hybrid": {
+        "title": "Hybrid lokalisering",
+        "description": "Intelligent fusjon av data fra flere kilder for optimal presisjon i ethvert miljø.",
+        "highlight1": "Metrisk presisjon i kritiske områder",
+        "highlight2": "Selvkonfigurasjon av etiketter",
+        "highlight3": "Robusthet under ugunstige forhold",
+        "highlight4": "Utendørs sporing også"
+      }
+    },
+    "comparison": {
+      "headline": "Sammenligning med alternative teknologier",
+      "feature": "Funksjon",
+      "unlimited": "Ubegrenset",
+      "features": {
+        "precision": "Presisjon",
+        "coverage": "Dekning per punkt",
+        "energy": "Energiautonomi",
+        "gateways": "Gatewayer nødvendig",
+        "facility": "Gatewayer for typisk anlegg (6 etasjer, 240 rom)",
+        "installation": "Installasjonstid",
+        "payback": "Tilbakebetalingstid"
+      },
+      "disclaimer": "* Leverandørrapporterte resultater validert i piloter. Individuelle resultater varierer etter anleggsstørrelse, utstyrsmiks og driftskontekst."
+    },
+    "specs": {
+      "label": {
+        "title": "Smarte etiketter",
+        "description": "Ultratynne selvklebende etiketter med energihøsting fra toppmoderne fotovoltaiske celler. Ingen batterier å bytte, kontinuerlig drift med omgivelseslys.",
+        "dimensions": "Dimensjoner",
+        "dimensionsValue": "Ultratynn, selvklebende",
+        "power": "Strøm",
+        "powerValue": "Toppmoderne fotovoltaiske celler + superkondensator",
+        "sensors": "Sensorer",
+        "sensorsValue": "3-akset akselerometer, temperatur, fuktighet",
+        "communication": "Kommunikasjon",
+        "communicationValue": "Sub-GHz (ISM-bånd), passiv Wi-Fi-skanning",
+        "gnss": "GNSS",
+        "gnssValue": "GPS, GLONASS, Galileo, BeiDou",
+        "durability": "Holdbarhet",
+        "durabilityValue": "IP65, desinfeksjonsmiddelbestandig"
+      },
+      "gateway": {
+        "title": "Langdistanse-gateway",
+        "description": "Minimal infrastruktur: kun 3-5 gatewayer for å dekke et helt sykehus. Rekkevidde opptil 10 km utendørs, over 1 km innendørs.",
+        "range": "Rekkevidde",
+        "rangeValue": "Opptil 10km utendørs, 1-2km innendørs",
+        "capacity": "Kapasitet",
+        "capacityValue": "Tusenvis av samtidige brikker",
+        "connectivity": "Tilkobling",
+        "connectivityValue": "Ethernet, Wi-Fi, 4G/5G",
+        "edge": "Edge Computing",
+        "edgeValue": "Integrert ARM-prosessor",
+        "sync": "Synkronisering",
+        "syncValue": "NTP, GPS",
+        "power": "Strøm",
+        "powerValue": "PoE eller ekstern strømforsyning"
+      },
+      "cloud": {
+        "title": "Skyplattform",
+        "description": "Sikker, HIPAA-kompatibel prosessering med sanntids dashbord, mobilapper og AI-drevet innsikt.",
+        "architecture": "Arkitektur",
+        "architectureValue": "Skynative mikrotjenester",
+        "storage": "Lagring",
+        "storageValue": "Tidsseriedatabase + SQL + NoSQL",
+        "aiml": "AI/ML",
+        "aimlValue": "Prediksjoner og optimaliseringer",
+        "audit": "Revisjonsspor",
+        "auditValue": "Uforanderlig logging for samsvar",
+        "api": "API",
+        "apiValue": "REST/WebSocket for integrasjoner",
+        "security": "Sikkerhet",
+        "securityValue": "Ende-til-ende-kryptering, GDPR-kompatibel"
+      }
+    },
+    "detailedSpecs": {
+      "headline": "Detaljerte tekniske spesifikasjoner",
+      "label": {
+        "title": "Smart etikett",
+        "dimensions": "Dimensjoner",
+        "dimensionsValue": "Ultratynn, selvklebende",
+        "power": "Strøm",
+        "powerValue": "Toppmoderne fotovoltaiske celler + superkondensator",
+        "sensors": "Sensorer",
+        "sensorsValue": "3-akset akselerometer, temperatur, fuktighet",
+        "communication": "Kommunikasjon",
+        "communicationValue": "Sub-GHz (ISM-bånd), passiv Wi-Fi-skanning",
+        "gnss": "GNSS",
+        "gnssValue": "GPS, GLONASS, Galileo, BeiDou",
+        "durability": "Holdbarhet",
+        "durabilityValue": "IP65, desinfeksjonsmiddelbestandig"
+      },
+      "gateway": {
+        "title": "Gateway",
+        "range": "Rekkevidde",
+        "rangeValue": "Opptil 10km utendørs, 1-2km innendørs",
+        "capacity": "Kapasitet",
+        "capacityValue": "Tusenvis av samtidige brikker",
+        "connectivity": "Tilkobling",
+        "connectivityValue": "Ethernet, Wi-Fi, 4G/5G",
+        "edge": "Edge Computing",
+        "edgeValue": "Integrert ARM-prosessor",
+        "sync": "Synkronisering",
+        "syncValue": "NTP, GPS",
+        "power": "Strøm",
+        "powerValue": "PoE eller ekstern strømforsyning"
+      },
+      "cloud": {
+        "title": "Skyplattform",
+        "architecture": "Arkitektur",
+        "architectureValue": "Skynative mikrotjenester",
+        "storage": "Lagring",
+        "storageValue": "Tidsseriedatabase + SQL + NoSQL",
+        "aiml": "AI/ML",
+        "aimlValue": "Prediksjoner og optimaliseringer",
+        "audit": "Revisjonsspor",
+        "auditValue": "Uforanderlig logging for samsvar",
+        "api": "API",
+        "apiValue": "REST/WebSocket for integrasjoner",
+        "security": "Sikkerhet",
+        "securityValue": "Ende-til-ende-kryptering, GDPR-kompatibel"
+      }
+    },
+    "security": {
+      "badge": "Bedriftssikkerhet",
+      "headline": "Helsegradert sikkerhet og samsvar",
+      "description": "Bygget fra grunnen av for å møte de strenge kravene i helsevesenet.",
+      "item1": {
+        "title": "Ende-til-ende-kryptering",
+        "desc": "AES-256 i hvile, TLS 1.3 under overføring. Dine data er alltid beskyttet."
+      },
+      "item2": {
+        "title": "HIPAA-kompatibel",
+        "desc": "Full samsvar med krav til beskyttelse av helsedata."
+      },
+      "item3": {
+        "title": "SOC 2 Type II",
+        "desc": "Uavhengig verifisering av våre sikkerhetskontroller og praksis."
+      }
+    },
+    "cta": {
+      "headline": "Se teknologien i aksjon",
+      "description": "Book en teknisk gjennomgang med teamet vårt for å forstå hvordan teknologien vår vil integreres med din institusjon.",
+      "button": "Book teknisk gjennomgang"
+    }
+  },
   "footer": {
     "description": "Intelligent medical device tracking with battery-free technology and minimal infrastructure.",
     "product": {
@@ -183,7 +455,7 @@
       "terms": "Terms of Service",
       "imprint": "Imprint"
     },
-    "copyright": "© 2025 MediMind Track. Powered by Native Digital SA, Switzerland.",
+    "copyright": "© 2025 MediMind Sense. All rights reserved.",
     "tagline": "Find it. Use it. Move on."
   }
 }

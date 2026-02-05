@@ -77,7 +77,7 @@ export function Compliance() {
           {complianceItems.map((item, index) => (
             <div
               key={index}
-              className="rounded-2xl p-6 border border-[#EBF7F3] hover:border-primary/30 hover:bg-[#EBF7F3]/30 transition-all duration-200"
+              className="rounded-2xl p-6 border border-[#EBF7F3] hover:border-[#d4ede4] transition-all duration-300"
             >
               <div className="w-12 h-12 bg-[#EBF7F3] rounded-xl flex items-center justify-center text-primary mb-4">
                 {item.icon}
@@ -107,7 +107,7 @@ export function Compliance() {
               {certifications.map((cert, index) => (
                 <div
                   key={index}
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full border border-primary/10"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-[#d4ede4] rounded-full"
                 >
                   <CheckCircle2 className="w-4 h-4 text-primary" />
                   <span className="text-sm font-medium text-[#0A1F17]">{cert}</span>
